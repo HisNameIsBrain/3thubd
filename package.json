@@ -1,0 +1,41 @@
+{
+  "name": "3thub-d",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@clerk/clerk-react": "latest",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@vitejs/plugin-react": "latest",
+    "autoprefixer": "^10.4.24",
+    "framer-motion": "^12.34.3",
+    "postcss": "^8.5.6",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "sonner": "^2.0.7",
+    "tailwindcss": "^4.1.18",
+    "three": "^0.182.0",
+    "typescript-eslint": "latest",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "convex": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react-hooks": "latest",
+    "eslint-plugin-react-refresh": "latest",
+    "globals": "latest",
+    "react-refresh": "latest",
+    "vite": "latest"
+  }
+}
